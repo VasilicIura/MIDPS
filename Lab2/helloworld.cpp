@@ -1,7 +1,7 @@
-//Aici voi crea un mic program HelloWorld
-//Hai sa incepem!
+//Am sters comentariile precedente 
 
 int main()
 {
+	
 	return 0;
 }
