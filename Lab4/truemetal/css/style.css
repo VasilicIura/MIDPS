@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	
+}
+
+html 
+{
+	height: 100%;
+}
+
+body
+{
+		height: 100%;
+		width: 100%;
+		background-color: #000;
+		color: #555;
+		font-family: "Verdana", Arial, sans-serif;
+		font-size: 1.5em; 
+		line-height: 135%;
+		float: left;
+		background-attachment: fixed;
+}
+	
+/*Links*/
+a
+{ 
+	color: 	rgb(220,20,40);
+	text-decoration: none;
+	transition: all.2s ease; /*links change colors slower*/
+	
+}
+
+
+
+
+
+/*Header styles*/
+header
+{
+	width: 98%;
+	float: left;
+	padding: 1%;
+	color: rgb(255,255,255);
+	border-bottom: 2px solid white;
+	background-color: rgb(0,0,0);
+	
+}
+
+
+
+header #WelcomeMessage div
+{
+	float: left;
+	color: rgb(0,0,0);
+	padding: 7px;
+	background-color: rgb(230,230,250);
+	border-radius: 100px;
+	position: relative;
+	left: 450px;
+}
+
+
+
+header #WelcomeMessage div:hover,  #MusicPage div:hover,  #History div:hover,  #Cloud div:hover
+{
+	color: rgb(150,50,100);
+	transition: all.2s ease; /*links change colors slower*/
+}
+
+/*Footer styles*/	
+
+footer 
+{
+	width: 99%;
+	float: left;
+	padding: 0.5%;
+	color: rgb(255,255,255);
+	border-top: 2px solid white;
+	margin-top: 535px;
+	background-color: rgb(0,0,0);
+	font-family: "Consolas", Arial, sans-serif;
+	text-align: center;
+}
+
+/*Pages*/
+
+body #MusicPage div
+{
+	font-size: 60px;
+	color: black;
+	position: absolute;
+	left: 100px;
+	top: 125px;
+	padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+	background-color:rgb(230,230,250);
+	border-radius: 15px;
+}
+
+body #History div
+{
+	font-size: 60px;
+	color: black;
+	position: absolute;
+	left: 100px;
+	top: 300px;
+	padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+	background-color:rgb(230,230,250);
+	border-radius: 15px;
+}
+
+body #Cloud div
+{
+	font-size: 60px;
+	color: black;
+	position: absolute;
+	left: 100px;
+	top: 475px;
+	padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+	background-color:rgb(230,230,250);
+	border-radius: 15px;
+}
+
+/*Album*/
+
+body #Album1 img
+{
+	position: absolute;
+	left: 150px;
+	top: 150px;
+}
+
+body #Album2 img
+{
+	position: absolute;
+	left: 550px;
+	top: 150px;
+}
+
+body #Album3 img
+{
+	position: absolute;
+	left: 950px;
+	top: 150px;
+}
+
+body #Info div
+{
+	color: black;
+	text-align: left;
+	padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+	background-color:rgb(230,230,250);
+	border-radius: 15px;
+	position: absolute;
+	top: 150px;
+	
+}
+
+body #SoundClouds iframe
+{
+	position: relative;
+	left: 360px;
+	top: 10px;
+}
